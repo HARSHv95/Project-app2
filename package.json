@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "chmod +x node_modules/.bin/vite"
+    "postinstall": "chmod +x node_modules/.bin/vite && chmod +x node_modules/@esbuild/linux-x64/bin/esbuild"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
