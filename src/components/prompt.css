@@ -1,0 +1,135 @@
+.prompt-header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.tab-button {
+  background: linear-gradient(to right, #00bfff, #1e90ff);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tab-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #00bfff;
+}
+
+.tab-button.active {
+  background: linear-gradient(to right, #32cd32, #7CFC00); /* neon green */
+  box-shadow: 0 0 10px #32cd32;
+}
+
+.input-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #00bfff;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 2px solid #00bfff;
+  background-color: #f0f8ff;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #32cd32;
+}
+
+.room-id {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.action-button {
+  background: linear-gradient(to right, #32cd32, #7CFC00);
+  color: black;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.action-button:hover {
+  background: linear-gradient(to right, #2e8b57, #66ff66);
+  transform: scale(1.05);
+}
+
+.room-toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f8ff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.room-id {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e90ff;
+}
+
+.open-party-label {
+  font-size: 12px;
+  text-align: right;
+  color: #00bfff;
+  margin-top: -6px;
+  margin-right: 10px;
+}
+
+/* For create room big member list window */
+.member-list-container {
+  margin-top: 15px;
+  background-color: #1f2937;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  height: 250px; /* Big size for create room */
+  overflow-y: auto;
+}
+
+.member-list-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #00bfff;
+}
+
+.member-list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.member-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid #555;
+}
+
+/* For join room smaller input */
+.input-field.small-input {
+  color: black;
+  width: 200px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+
